@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Casa in Via della Noce</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header con video background e gradient overlay -->
+  <header class="hero">
+    <!-- Video background -->
+    <div class="video-background">
+      <video autoplay muted loop id="hero-video">
+        <source src="https://static.videezy.com/system/resources/previews/000/044/479/original/alley-of-trees.mp4" type="video/mp4">
+      </video>
+      <div class="video-overlay"></div>
+    </div>
+    
+    <div class="hero-content">
+      <h1>Casa in Via della Noce</h1>
+      <p class="hero-subtitle">Gestione condivisa di spese comuni per piscina, giardino, pollaio, frutteto e uliveto</p>
+    </div>
+    
+    <!-- Container per gli elementi animati -->
+    <div class="animation-area">
+      <div class="leaf leaf1"></div>
+      <div class="leaf leaf2"></div>
+      <div class="leaf leaf3"></div>
+      <div class="leaf leaf4"></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="info-card">
+        <h2>Gestione Condivisa</h2>
+        <p class="descrizione">
+          Contributo mensile: <strong>33 € a testa</strong> (totale <strong>99 €</strong>) 
+          per coprire spese comuni di manutenzione della nostra proprietà condivisa.
+        </p>
+        <p class="descrizione-secondary">
+          Di seguito il calendario con le attività stagionali e la pianificazione delle spese.
+        </p>
+      </div>
+
+      <section class="calendar-section">
+        <div class="table-container">
+          <table id="calendario">
+            <thead>
+              <tr>
+                <th>Mese</th>
+                <th>Attività</th>
+                <th>Tot (stima)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- GENNAIO -->
+              <tr class="month-row">
+                <td rowspan="4">Gennaio</td>
+                <td></td>
+                <td rowspan="4" class="editable"></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+
+              <!-- FEBBRAIO -->
+              <tr class="month-row">
+                <td rowspan="4">Febbraio</td>
+                <td></td>
+                <td rowspan="4" class="editable"></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+
+              <!-- MARZO -->
+              <tr class="month-row">
+                <td rowspan="4">Marzo</td>
+                <td></td>
+                <td rowspan="4" class="editable"></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+
+              <!-- APRILE -->
+              <tr class="month-row">
+                <td rowspan="4">Aprile</td>
+                <td></td>
+                <td rowspan="4" class="editable"></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+
+              <!-- MAGGIO -->
+              <tr class="month-row">
+                <td rowspan="4">Maggio</td>
+                <td></td>
+                <td rowspan="4" class="editable"></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+
+              <!-- GIUGNO -->
+              <tr class="month-row">
+                <td rowspan="4">Giugno</td>
+                <td></td>
+                <td rowspan="4" class="editable"></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+
+              <!-- LUGLIO -->
+              <tr class="month-row">
+                <td rowspan="4">Luglio</td>
+                <td></td>
+                <td rowspan="4" class="editable"></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+
+              <!-- AGOSTO -->
+              <tr class="month-row">
+                <td rowspan="4">Agosto</td>
+                <td></td>
+                <td rowspan="4" class="editable"></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+
+              <!-- SETTEMBRE -->
+              <tr class="month-row">
+                <td rowspan="4">Settembre</td>
+                <td></td>
+                <td rowspan="4" class="editable"></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+
+              <!-- OTTOBRE -->
+              <tr class="month-row">
+                <td rowspan="4">Ottobre</td>
+                <td></td>
+                <td rowspan="4" class="editable"></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+
+              <!-- NOVEMBRE -->
+              <tr class="month-row">
+                <td rowspan="4">Novembre</td>
+                <td></td>
+                <td rowspan="4" class="editable"></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+
+              <!-- DICEMBRE -->
+              <tr class="month-row">
+                <td rowspan="4">Dicembre</td>
+                <td></td>
+                <td rowspan="4" class="editable"></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="actions-section">
+        <div class="buttons">
+          <button id="downloadBtn" class="btn primary">
+            <span class="btn-icon">↓</span> Scarica in .txt
+          </button>
+          <input type="file" id="fileInput" accept=".txt,.csv" style="display: none;" />
+          <button id="uploadBtn" class="btn secondary">
+            <span class="btn-icon">↑</span> Carica file .txt/.csv
+          </button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>© 2025 Casa in Via della Noce. Gestione condivisa a <em>tre proprietari</em>.</p>
+        <div class="footer-icons">
+          <span class="icon">🏡</span>
+          <span class="icon">🌳</span>
+          <span class="icon">🏊</span>
+          <span class="icon">🐔</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
